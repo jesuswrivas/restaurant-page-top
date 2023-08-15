@@ -1,0 +1,32 @@
+
+
+/* 
+Navbar Styling */
+*{
+    outline: 1px solid red;
+}
+
+
+.nav-bar{
+background-color: #051826;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2rem;
+}
+
+.nav-bar__left{
+
+
+}
+
+.nav-bar__right__actions{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.nav-bar__right__actions button{
+    padding: 0.4rem 1.5rem;
+    border-radius: 0.7rem;
+}
