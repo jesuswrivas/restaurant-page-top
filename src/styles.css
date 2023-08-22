@@ -2,9 +2,7 @@
 
 /* 
 Navbar Styling */
-*{
-    outline: 1px solid red;
-}
+
 
 
 .nav-bar{
@@ -17,6 +15,9 @@ padding: 2rem;
 
 .nav-bar__left{
 
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
 
 }
 
@@ -28,5 +29,113 @@ padding: 2rem;
 
 .nav-bar__right__actions button{
     padding: 0.4rem 1.5rem;
-    border-radius: 0.7rem;
+
+    background-color: transparent;
+    border-color: #DA893F;
+    color: #DA893F;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+/* Main and Body */
+
+#main-content-container{
+
+    margin-top: 5rem;
+   
+}
+
+
+
+main, html, body{
+    background-color: #051826;
+  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main{
+    flex: 1;
+    margin-top: 5rem;
+
+}
+
+/* home-page-content */
+
+.hero{
+    background-color: #da8a3f11;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+    font-size: 2rem;
+    
+}
+
+.hero-image-container{
+    width: 100px;
+    overflow: hidden;
+    background-size: cover; /* Make the background image cover the container */
+    background-position: center; /* Center the background image */
+}
+
+.hero-image-container img{
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+/* about page  */
+
+.main__about{
+    background-color: #da8a3f11;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 10rem;
+    width: 50%;
+    margin: 0 auto;
+   
+
+}
+
+
+/* Contact page  */
+
+.main__contact{
+    background-color: #da8a3f11;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+/* footer styling */
+
+footer{
+    background-color: #da8a3fa1;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
