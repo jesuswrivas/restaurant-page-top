@@ -2,10 +2,7 @@
 
 A simple restaurant page built using JavaScript to dynamically render content. Made as an exercise for The Odin Project Course:
 
-<p align="center">
-  <a href="https://www.theodinproject.com/lessons/javascript-restaurant-page">The Odin Project - JavaScript Restaurant Page</a>
-</p>
-
+[The Odin Project - JavaScript Restaurant Page](https://www.theodinproject.com/lessons/javascript-restaurant-page)
 
 # Features
 * Dynamically generated content using JavaScript.
